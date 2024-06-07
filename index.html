@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Total Emissions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="file-input">
+    <div class="upload-container">
+        <input type="file" id="file-input" class="file-input" accept="application/pdf">
+        <div id="drop-area" class="drop-area">
+            Ziehen Sie Ihre PDF-Datei hierher oder klicken Sie, um eine Datei auszuwählen.
         </div>
-        <div class="check">
-            <button>Check</button>
-        </div>
+        <div id="file-info"></div>
     </div>
 </body>
 </html>
